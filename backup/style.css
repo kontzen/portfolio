@@ -1,0 +1,142 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(27, 28, 32);
+  color: azure;
+
+  font-family: "Poppins", Inter;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  padding: 0 2%;
+}
+
+header h1 {
+  font-size: 38px;
+}
+header nav {
+  display: flex;
+  gap: 10px;
+}
+
+header nav a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 12px;
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  color: aquamarine;
+}
+
+#home-face {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  padding: 80px 160px 0 160px;
+}
+
+.title-face {
+  font-size: 28pt;
+  transform: translatey(200px);
+  font-weight: 500;
+}
+
+.title-face h3 {
+  font-size: 20pt;
+  transform: translatey(-75%);
+}
+
+.home-description {
+  display: flex;
+  justify-content: center;
+  transform: translateY(400%);
+}
+
+#bottom-nav {
+  transform: translateY(800%);
+}
+
+#bottom-nav nav {
+  display: flex;
+  justify-content: center;
+  padding: 0px 4px;
+  gap: 5%;
+}
+
+#bottom-nav a {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 30pt;
+}
+
+#bottom-nav a:hover {
+  color: aquamarine;
+}
+
+.about {
+  display: flex;
+  padding: 0 3rem;
+}
+
+.about h1 {
+  font-size: 30pt;
+}
+
+.about h2 {
+  transform: translateY(-25px);
+  font-size: 20pt;
+}
+
+.image-container {
+  padding: 0 1rem;
+}
+
+.image-container img {
+  margin-bottom: 15%;
+  height: 800px;
+  width: 350px;
+  padding: 0 3rem;
+  transform: translateX(-75px);
+  border-right: 1px solid white;
+}
+
+.description {
+  transform: translateX(-50px);
+  text-align: justify;
+  width: 50%;
+  font-size: 14pt;
+}
+
+.about-me {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid white;
+}
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(50px);
+}
+.about-skills h2 {
+  margin: 0;
+}
+
+.about-skills ul {
+  margin: 0;
+  transform: translateY(-10px);
+}

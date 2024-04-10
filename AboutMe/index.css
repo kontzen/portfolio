@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: auto;
+  font-family: "Poppins";
+  text-align: center;
+  box-sizing: border-box;
+  color: aliceblue;
+  background-color: rgb(29, 31, 41);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header h1 a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header h1 a:hover {
+  color: aquamarine;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header nav a.active {
+  color: white;
+}
+
+header nav a:hover {
+  color: aquamarine;
+}
+
+header nav a :hover > :not(:hover) {
+  color: none;
+}
+
+#home-face {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  transform: translateY(20%);
+  height: 75dvh;
+}
+
+#home-face h1 {
+  font-size: 64px;
+}
+
+#home-face h3 {
+  font-size: 32px;
+}
+
+#home-face p {
+  font-size: 14pt;
+  transform: translateY(200%);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.home-link {
+  align-items: center;
+  transform: translateY(10px);
+  margin: auto;
+  z-index: 100;
+}
+
+.home-link nav {
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+}
+
+.home-link nav a {
+  font-size: 25pt;
+  text-decoration: none;
+  background-color: none;
+  transition: 0.3s;
+  margin: 0 10px;
+}
+
+.home-link nav a:hover {
+  color: aquamarine;
+}
+
+#about-me {
+  height: 100dvh;
+  padding-top: 10px;
+}
